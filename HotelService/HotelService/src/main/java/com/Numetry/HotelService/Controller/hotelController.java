@@ -28,4 +28,9 @@ public class hotelController {
         return ResponseEntity.ok(hotelService.getAll());
     }
 
+    @Deletemapping("/delete{id}){
+        return ResponcesEntity.status(HttpStatus.Ok).body(hotelService.deleteById(id);
+    }
+    
+
 }
